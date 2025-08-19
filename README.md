@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="/banner.jpg" alt="Banner" tyle="width:100%;">
+  <img src="https://github.com/Siiqueira/TelecomX_BR_II/blob/main/data/results/img/Banner.jpg" alt="Banner" tyle="width:100%;">
 </p>
 
 
