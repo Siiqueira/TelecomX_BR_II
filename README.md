@@ -1,4 +1,4 @@
-# Projeto: Previsão de Cancelamento de Clientes (Churn) - TelecomX_BR
+# Projeto: **Previsão de Cancelamento de Clientes (Churn) - TelecomX BR**  
 
 ## 🎯 Missão do Cientista de Dados
 Desenvolver um pipeline de machine learning completo para prever a evasão (churn) de clientes da TelecomX_BR, permitindo ações proativas de retenção por parte da empresa.  
