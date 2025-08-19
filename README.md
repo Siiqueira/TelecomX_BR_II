@@ -1,4 +1,12 @@
+
+<p align="center">
+  <img src="/banner.jpg" alt="Banner" tyle="width:100%;">
+</p>
+
+
 # Projeto: **Previsão de Cancelamento de Clientes (Churn) - TelecomX BR**  
+
+[TelecomX BR - Parte I](https://github.com/Siiqueira/TelecomX_BR)
 
 ## 🎯 Missão do Cientista de Dados
 Desenvolver um pipeline de machine learning completo para prever a evasão (churn) de clientes da TelecomX_BR, permitindo ações proativas de retenção por parte da empresa.  
@@ -35,10 +43,10 @@ Desenvolver um pipeline de machine learning completo para prever a evasão (chur
 |       └── img/                     # Gráficos gerados  
 │
 ├── models/
-│   └── model_telecomx_BR.pkl             # Modelo final salvo
+│   └── model_telecomx_BR.pkl        # Modelo final salvo
 │
 ├── notebooks/
-│   └──TelecomX_II.ipynb          # Notebook principal do projeto
+│   └──TelecomX_II.ipynb             # Notebook principal do projeto
 │
 ├── src/
 │   └── pipeline/                    # Lógica do pipeline (pré-processamento, modelagem, etc.)
