@@ -43,9 +43,9 @@ Os dados foram carregados e tratados com as seguintes ações:
 - Clientes com contratos mais curtos tendem a acumular menos gastos e cancelar mais cedo.
 
 📈 **Links para gráficos:**
-- [🔗 Gráfico de Correlação](#coloque-aqui-seu-link)
-- [🔗 Tempo de Contrato x Cancelamento](#coloque-aqui-seu-link)
-- [🔗 Total de Gasto x Cancelamento](#coloque-aqui-seu-link)
+- [🔗 Gráfico de Correlação](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/matriz_correlacao.png)
+- [🔗 Tempo de Contrato x Cancelamento](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/cancelamento_tempo_contrato.png)
+- [🔗 Total de Gasto x Cancelamento](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/cancelamento_total_gastos.png)
 
 ---
 
@@ -84,21 +84,21 @@ RandomForestClassifier(
 
 ### 📉 Matriz de Confusão
 
-🔗 [Link para o gráfico]
+🔗 [Matriz de confusão comparativo](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/matriz_confusao_comparacao.png)
 
 > Random Forest foi superior em quase todas as métricas, principalmente na identificação correta de clientes que não cancelam (classe 0).  
 > A classe 1 (cancelamento) ainda apresenta desafios.
 
 ### 📈 Curva ROC AUC
 
-🔗 [Link para o gráfico]
+🔗 [Gráfico Curva Roc Comparativo]
 
 - Decision Tree: AUC = 0.73  
 - Random Forest: AUC = 0.82
 
 ### 📈 Curva Precisão x Recall
 
-🔗 [Link para o gráfico]
+🔗 [Gráfico curva PR Comparativo](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/curva_pr_comparacao.png)
 
 - Decision Tree: Avg. Precision = 0.44  
 - Random Forest: Avg. Precision = 0.59
@@ -204,3 +204,4 @@ Apesar dos bons resultados, ações de retenção baseadas nas previsões devem 
 
 
 ---
+
