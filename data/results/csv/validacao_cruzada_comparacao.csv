@@ -1,0 +1,9 @@
+Modelo,Métrica,Média,Desvio,Intervalo
+Decision Tree,Accuracy,0.74,0.01,"[0.71, 0.77]"
+Decision Tree,Precision,0.51,0.02,"[0.47, 0.54]"
+Decision Tree,Recall,0.72,0.04,"[0.63, 0.80]"
+Decision Tree,F1,0.59,0.02,"[0.55, 0.64]"
+Random Forest,Accuracy,0.78,0.01,"[0.76, 0.80]"
+Random Forest,Precision,0.57,0.02,"[0.54, 0.61]"
+Random Forest,Recall,0.73,0.01,"[0.71, 0.75]"
+Random Forest,F1,0.64,0.01,"[0.62, 0.66]"

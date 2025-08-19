@@ -1,0 +1,7 @@
+Decision Tree Classifier,Decision Tree Classifier,Decision Tree Classifier,Decision Tree Classifier,Decision Tree Classifier,Random Forest Classifier,Random Forest Classifier,Random Forest Classifier,Random Forest Classifier,Random Forest Classifier
+Metricas,precision,recall,f1-score,support,Metricas,precision,recall,f1-score,support
+0,0.87,0.73,0.79,1030.0,0,0.88,0.79,0.83,1030.0
+1,0.48,0.69,0.57,373.0,1,0.54,0.71,0.61,373.0
+accuracy,0.72,0.72,0.72,0.72,accuracy,0.76,0.76,0.76,0.76
+macro avg,0.67,0.71,0.68,1403.0,macro avg,0.71,0.75,0.72,1403.0
+weighted avg,0.76,0.72,0.73,1403.0,weighted avg,0.79,0.76,0.77,1403.0
