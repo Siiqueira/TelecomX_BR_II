@@ -201,5 +201,5 @@ O modelo, mesmo diante de dados desbalanceados, apresenta capacidade robusta de 
 
 > 👨‍💻 Desenvolvido por: Ellan Alves  
 > 📧 Email: ynvestellan@gmail.com  
-> 🔗 LinkedIn: www.linkedin.com/in/ellan-alves-dados
+> 🔗 LinkedIn: [Ellan Alves](www.linkedin.com/in/ellan-alves-dados)
 ---
