@@ -53,7 +53,6 @@ Desenvolver um pipeline de machine learning completo para prever a evasão (chur
 │
 ├── README.md                        # Documentação principal do projeto
 ├── Relatorio_Tecnico.md             # Relatório técnico completo
-├── Arquitetura_Projeto.md           # Estrutura e decisões arquiteturais
 ├── LICENSE                          # Licença de uso (MIT)
 ├── .gitignore                       # Arquivos e pastas ignorados pelo Git   
 └── requirements.txt                 # Bibliotecas do modelo
