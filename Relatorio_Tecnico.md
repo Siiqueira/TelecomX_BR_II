@@ -28,7 +28,7 @@ Os dados foram carregados e tratados com as seguintes ações:
 - **Não Cancelaram (classe 0):** 73%
 - **Cancelaram (classe 1):** 27%
 
-🔍 *Os dados estão desbalanceados. Isso pode causar viés nos modelos preditivos. Técnicas de oversampling e undersampling foram testadas para mitigar esse problema.*
+⚠️ *Os dados estão desbalanceados. Isso pode causar viés nos modelos preditivos. Técnicas de oversampling e undersampling foram testadas para mitigar esse problema.*
 
 ---
 
@@ -42,10 +42,15 @@ Os dados foram carregados e tratados com as seguintes ações:
 - Fibra Óptica está correlacionada com gastos elevados e maior taxa de churn.
 - Clientes com contratos mais curtos tendem a acumular menos gastos e cancelar mais cedo.
 
-📈 **Links para gráficos:**
-- [🔗 Gráfico de Correlação](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/matriz_correlacao.png)
-- [🔗 Tempo de Contrato x Cancelamento](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/cancelamento_tempo_contrato.png)
-- [🔗 Total de Gasto x Cancelamento](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/cancelamento_total_gastos.png)
+### 📈 **Gráficos:**
+#### **Tempo de Contrato x Cancelamento**  
+![](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/cancelamento_tempo_contrato.png)  
+
+#### **Total de Gasto x Cancelamento**  
+![](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/cancelamento_total_gastos.png)  
+
+#### **Gráfico de Correlação**
+![](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/matriz_correlacao.png)  
 
 ---
 
@@ -58,13 +63,16 @@ Os dados foram carregados e tratados com as seguintes ações:
 
 ### Modelos testados:
 
-1. **Decision Tree Classifier**
+**Decision Tree Classifier**
 ```python
 DecisionTreeClassifier(
     max_depth=10,
     class_weight='balanced',
     random_state=42
 )
+```
+**Random Forest Classifier**
+```python
 RandomForestClassifier(
     n_estimators=100,
     max_depth=10,
@@ -77,10 +85,10 @@ RandomForestClassifier(
 
 ### 🔢 Métricas Comparativas
 
-| Modelo         | AUC  | Recall (Classe 1) | F1 (Classe 1) | Accuracy |
-|----------------|------|-------------------|---------------|----------|
-| Decision Tree  | 0.73 | 0.69              | 0.57          | 0.72     |
-| Random Forest  | 0.82 | 0.71              | 0.61          | 0.76     |
+| Modelo         |Precision | Recall (Classe 1) | F1 (Classe 1) | Accuracy |
+|:--------------:|:--------:|:-----------------:|:-------------:|:--------:|
+| Decision Tree  |   0.48   | 0.69              | 0.57          | 0.72     |
+| Random Forest  |   0.54   | 0.71              | 0.61          | 0.76     |
 
 ### 📉 Matriz de Confusão
 
@@ -204,4 +212,5 @@ Apesar dos bons resultados, ações de retenção baseadas nas previsões devem 
 
 
 ---
+
 
