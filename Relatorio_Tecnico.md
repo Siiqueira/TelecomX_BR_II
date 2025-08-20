@@ -92,35 +92,39 @@ RandomForestClassifier(
 
 ### 📉 Matriz de Confusão
 
-🔗 [Matriz de confusão comparativo](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/matriz_confusao_comparacao.png)
+**Decision Tree x Random Forest**  
+![](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/matriz_confusao_comparacao.png)
 
-> Random Forest foi superior em quase todas as métricas, principalmente na identificação correta de clientes que não cancelam (classe 0).  
-> A classe 1 (cancelamento) ainda apresenta desafios.
+ > Random Forest foi superior em quase todas as métricas, principalmente na identificação correta de clientes que não cancelam (classe 0).
+ > A classe 1 (cancelamento) ainda apresenta desafios.
 
-### 📈 Curva ROC AUC
+### 📈 Curva ROC AUC  
 
-🔗 [Gráfico Curva Roc Comparativo]
+**Decision Tree x Random Forest** 
+![](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/curva_roc_comparacao.png)
 
 - Decision Tree: AUC = 0.73  
 - Random Forest: AUC = 0.82
 
 ### 📈 Curva Precisão x Recall
 
-🔗 [Gráfico curva PR Comparativo](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/curva_pr_comparacao.png)
+**Decision Tree x Random Forest**  
+![](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/img/curva_pr_comparacao.png)
 
 - Decision Tree: Avg. Precision = 0.44  
 - Random Forest: Avg. Precision = 0.59
 
 ### 📄 Classification Report
 
-🔗 [Link para CSV com os relatórios]
+[**Comparação: Decision Tree x Random Forest** (CSV)](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/csv/classification_report_comparacao.csv)  
 
 > Random Forest teve melhor desempenho para a classe de interesse (churn).  
 > F1-Score e recall da classe 1 foram superiores ao Decision Tree.
 
 ### 🔁 Validação Cruzada
 
-🔗 [Link para CSV]
+[**Comparação: Decision Tree x Random Forest** (CSV)]
+[](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/csv/validacao_cruzada_comparacao.csv)  
 
 > Resultados mais estáveis e consistentes com Random Forest.  
 > Menor variância e melhor generalização.
@@ -134,7 +138,8 @@ RandomForestClassifier(
 - Oversampling (SMOTE) ✅ escolhido  
 - Undersampling (NearMiss)
 
-📄 🔗 [CSV com resultados]
+📄 [**Oversampling (CSV)**](https://github.com/Siiqueira/TelecomX_BR_II/blob/main/data/results/csv/validacao_cruzada_oversampling.csv)
+📄 [**Undersampling (CSV)**](https://raw.githubusercontent.com/Siiqueira/TelecomX_BR_II/refs/heads/main/data/results/csv/validacao_cruzada_undersampling.csv)
 
 **Escolha: Oversampling com SMOTE**  
 ✅ Apresentou melhor equilíbrio entre precisão e recall, além de maior acurácia (0.79).
@@ -212,5 +217,6 @@ Apesar dos bons resultados, ações de retenção baseadas nas previsões devem 
 
 
 ---
+
 
 
