@@ -1,0 +1,5 @@
+Modelo,Métrica,Média,Desvio,Intervalo
+Random Forest Classifier,Accuracy,0.79,0.01,"[0.77, 0.81]"
+Random Forest Classifier,Precision,0.6,0.02,"[0.57, 0.63]"
+Random Forest Classifier,Recall,0.64,0.02,"[0.60, 0.67]"
+Random Forest Classifier,F1,0.62,0.01,"[0.59, 0.65]"
